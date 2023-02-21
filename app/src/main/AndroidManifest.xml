@@ -12,6 +12,18 @@
         android:theme="@style/Theme.PetStore"
         tools:targetApi="31">
         <activity
+            android:name=".Pet_select_window"
+            android:exported="false" />
+        <activity
+            android:name=".Change_profile_window"
+            android:exported="false" />
+        <activity
+            android:name=".Personal_account"
+            android:exported="false" />
+        <activity
+            android:name=".Register_window"
+            android:exported="false" />
+        <activity
             android:name=".Login_window"
             android:exported="false" />
         <activity
