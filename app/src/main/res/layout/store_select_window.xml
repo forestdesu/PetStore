@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pet_window"
+    android:background="@drawable/store_window"
     tools:context=".Pet_select_window">
 
     <Button
@@ -18,8 +18,7 @@
         android:textAllCaps="false"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button2" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <LinearLayout
         android:id="@+id/linearLayout5"
@@ -32,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
         <ImageView
             android:id="@+id/imageView5"
@@ -51,41 +50,6 @@
             android:layout_height="50dp"
             android:background="@drawable/button_background"
             android:text="Удалить"
-            android:textAllCaps="false"
-            android:textSize="20sp"
-            android:textStyle="normal" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="20dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="55dp"
-            android:layout_height="55dp"
-            app:srcCompat="@drawable/change_pet_icon" />
-
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="250dp"
-            android:layout_height="50dp"
-            android:background="@drawable/button_background"
-            android:text="Изменить"
             android:textAllCaps="false"
             android:textSize="20sp"
             android:textStyle="normal" />
@@ -139,14 +103,14 @@
             android:id="@+id/imageView1"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            app:srcCompat="@drawable/pet_icon" />
+            app:srcCompat="@drawable/store_icon" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
-            android:text="Питомцы"
+            android:text="Заказы"
             android:textAlignment="center"
             android:textColor="#020202"
             android:textSize="38sp" />
